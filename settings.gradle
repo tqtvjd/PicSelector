@@ -14,9 +14,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "PictureSelector"
-include ':app'
 include ':selector'
 include ':ucrop'
 include ':compress'
 include ':camerax'
-include ':ijkplayer-java'
