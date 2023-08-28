@@ -1,0 +1,19 @@
+ext {
+    PUBLISH_ARTIFACT_ID = "pictureselector"
+}
+apply from: rootProject.file('config.gradle')
+apply from: '../publish.gradle'
+
+android {
+    namespace "com.luck.picture.lib"
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:${cfgs.version_appcompat}"
+    implementation "androidx.recyclerview:recyclerview:${cfgs.version_recyclerview}"
+    implementation "androidx.activity:activity:${cfgs.activity_version}"
+    implementation "androidx.fragment:fragment:${cfgs.fragment_version}"
+    implementation "androidx.exifinterface:exifinterface:${cfgs.exifinterface_version}"
+    implementation "androidx.viewpager2:viewpager2:${cfgs.viewpage2}"
+    implementation "androidx.constraintlayout:constraintlayout:${cfgs.constraintlayout}"
+}

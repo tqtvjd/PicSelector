@@ -1,0 +1,21 @@
+ext {
+    PUBLISH_ARTIFACT_ID = "camerax"
+}
+
+apply from: rootProject.file('config.gradle')
+apply from: rootProject.file('publish.gradle')
+
+android {
+    namespace "com.luck.lib.camerax"
+}
+
+dependencies {
+    def camerax_version = "1.2.3"
+    api "androidx.camera:camera-core:${camerax_version}"
+    api "androidx.camera:camera-camera2:${camerax_version}"
+    implementation "androidx.camera:camera-view:${camerax_version}"
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    implementation "androidx.appcompat:appcompat:${cfgs.version_appcompat}"
+    implementation "androidx.transition:transition:${cfgs.transition}"
+    implementation "androidx.concurrent:concurrent-futures:${cfgs.futures}"
+}

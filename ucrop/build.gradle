@@ -1,0 +1,19 @@
+ext {
+    PUBLISH_ARTIFACT_ID = "ucrop"
+}
+
+apply from: rootProject.file('config.gradle')
+apply from: '../publish.gradle'
+
+android {
+    namespace "com.yalantis.ucrop"
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:${cfgs.version_appcompat}"
+    implementation "androidx.exifinterface:exifinterface:${cfgs.exifinterface_version}"
+    implementation "androidx.transition:transition:${cfgs.transition}"
+    implementation "com.squareup.okhttp3:okhttp:${cfgs.okhttp}"
+    implementation "androidx.recyclerview:recyclerview:${cfgs.version_recyclerview}"
+    implementation "com.google.code.gson:gson:${cfgs.gson}"
+}

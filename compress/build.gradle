@@ -1,0 +1,9 @@
+ext {
+    PUBLISH_ARTIFACT_ID = "compress"
+}
+
+apply from: '../publish.gradle'
+android {
+    namespace "top.zibin.luban"
+}
+dependencies {}
