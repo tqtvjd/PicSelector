@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Labels -->
+    <string name="ucrop_label_original">Asl</string>
+    <string name="ucrop_label_edit_photo">Foto tahrirlash</string>
+
+    <!-- Menu -->
+    <string name="ucrop_menu_crop">Kesish</string>
+    <string name="ucrop_rotate">Aylantirish</string>
+    <string name="ucrop_scale">O\'lcham</string>
+    <string name="ucrop_crop">Kesish</string>
+
+    <!-- Tags -->
+    <string name="ucrop_gif_tag">gif</string>
+
+    <!-- Messages -->
+    <string name="ucrop_not_crop">Qo\'shimcha kesish turi qo\'llab-quvvatlanmaydi</string>
+</resources>

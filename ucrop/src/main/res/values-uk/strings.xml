@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Labels -->
+    <string name="ucrop_label_original">Оригінал</string>
+    <string name="ucrop_label_edit_photo">Редагувати фото</string>
+
+    <!-- Menu -->
+    <string name="ucrop_menu_crop">Обрізка</string>
+    <string name="ucrop_rotate">Поворот</string>
+    <string name="ucrop_scale">Масштаб</string>
+    <string name="ucrop_crop">Обрізка</string>
+
+    <!-- Tags -->
+    <string name="ucrop_gif_tag">gif</string>
+
+    <!-- Messages -->
+    <string name="ucrop_not_crop">Тип обрізки не підтримується</string>
+</resources>

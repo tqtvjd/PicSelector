@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picture_recording_time_is_short">qayd etish vaqti juda qisqa</string>
+    <string name="picture_photo_camera">Suratga tushirish, suratga tushirish</string>
+    <string name="picture_photo_pictures">Surat olish</string>
+    <string name="picture_photo_recording">Uzoq bosib kamera</string>
+</resources>
